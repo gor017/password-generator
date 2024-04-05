@@ -1,0 +1,55 @@
+:root {
+    font-family: Inter, sans-serif;
+    line-height: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+@media (min-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 1px;
+        height: 8px;
+    }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c1c1c1;
+}
+
+a {
+    color: #3366cc;
+    border-bottom-width: thin;
+    border-bottom-color: #3366cc;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: unset;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+p {
+    margin: 0;
+}
